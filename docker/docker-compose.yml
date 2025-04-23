@@ -1,0 +1,20 @@
+name : sqlLab
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: sql-practice-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: sql_practice
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 7475
+      TZ: Asia/Seoul
+    ports:
+      - "43306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init:/docker-entrypoint-initdb.d
+
+volumes:
+  mysql_data:
