@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/oracle-practice/chap02/2_3.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/sql-practice/levels/lv01/init/init.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/sql-practice/levels/lv01/solution/1.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql-practice/levels/lv01/solution/3.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql-practice/levels/lv01/solution/4.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql-practice/levels/lv01/solution/5.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql-practice/levels/lv01/solution/6.sql" dialect="MySQL" />
+  </component>
+</project>
