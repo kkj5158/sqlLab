@@ -1,0 +1,1 @@
+SELECT name , age from students where age >= 20;
