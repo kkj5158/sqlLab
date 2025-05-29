@@ -1,3 +1,1 @@
-SELECT *
-FROM employees
-WHERE salary >= 5000;
+select name , age from students where age >= 20 and age <= 22;

@@ -1,3 +1,2 @@
-SELECT name, salary
-FROM employees
-ORDER BY salary DESC;
+select * from students
+where enrolled is not null;

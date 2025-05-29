@@ -1,3 +1,4 @@
-SELECT department, COUNT(*) AS count
-FROM employees
-GROUP BY department;
+SELECT name , grade
+FROM students
+where grade IN ('A' , 'B', 'C');
+

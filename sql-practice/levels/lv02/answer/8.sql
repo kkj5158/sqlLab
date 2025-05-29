@@ -1,3 +1,3 @@
-SELECT name
-FROM employees
-WHERE name LIKE '%a%';
+select name , grade
+from students
+where grade not in ('D' , 'F');

@@ -1,3 +1,1 @@
-SELECT name, department
-FROM employees
-WHERE department IN ('HR', 'Marketing');
+select * from students where age >= 21 and grade = 'C';

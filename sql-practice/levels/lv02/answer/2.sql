@@ -1,3 +1,1 @@
-SELECT name, salary
-FROM employees
-WHERE department = 'Engineering';
+select * from students where grade = 'B';
